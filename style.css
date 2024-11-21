@@ -1,0 +1,405 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  .poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.nav-links {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #1d232c;
+  font-size: larger;
+}
+
+.link a:hover {
+  text-decoration: underline;
+  color: #1d232c;
+}
+
+.toogle {
+  display: none;
+  padding: 15px;
+}
+
+.side-navbar {
+  background-color: #1d232c;
+  width: 40%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  padding: 20px;
+  position: fixed;
+  color: white;
+  transition: 1.5s;
+
+}
+
+.side-nav-links {
+  margin: 20px;
+
+}
+
+
+.side-link a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.side-link {
+  margin-bottom: 30px;
+  font-size: larger;
+
+}
+
+.side-link a:hover {
+  text-decoration: underline;
+
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-color: #1d232c;
+  color: white;
+  cursor: pointer;
+}
+
+.service {
+  padding: 20px;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-2 div {
+  background-color: #f2f4f7;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.new-arrival {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.new-arrival-container {
+  position: relative;
+  flex-basis: 20%;
+}
+
+.new-arrival-container button {
+
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  color: #1d232c;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  border-radius: 10px;
+  border: none;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.news input {
+
+  padding: 11px;
+  width: 80vw;
+  margin-bottom: 10px;
+  border: solid black 3px;
+  margin-top: 10px;
+
+}
+
+.news button {
+  margin-top: 10px;
+  color: #f2f4f7;
+  background-color: #1d232c;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.foot {
+  background-color: #1d232c;
+  color: white;
+  padding: 40px;
+  margin-top: 10px;
+
+
+}
+
+.footers {
+  column-gap: 10px;
+
+}
+
+.foot-container-1 {
+  padding: 10px;
+  column-gap: 10px;
+}
+
+.Collection {
+  margin: 20px;
+}
+
+.protect-search {
+  width: 80%;
+  border: solid black 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+
+}
+
+.protect-search input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.protect-search input:focus {
+  outline: none;
+}
+
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.product-box {
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.product-box img {
+  border-radius: 10px;
+}
+
+
+.Contact {
+
+  background-color: #f3f4f5e6;
+  color: #1d232c;
+  padding: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+}
+
+.contact-list div {
+
+  display: flex;
+  align-items: center;
+  padding:20px;
+
+}
+
+.contact-list #data {
+  width: 80%;
+  border: solid black 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.contact-list button{
+  margin-top: 10px;
+  color: #f2f4f7;
+  background-color: #1d232c;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+
+@media screen and (max-width:700px) {
+  .toogle {
+    display: block;
+
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .container-1 {
+    display: none;
+  }
+
+  .container-2 {
+    flex-direction: column;
+  }
+}
